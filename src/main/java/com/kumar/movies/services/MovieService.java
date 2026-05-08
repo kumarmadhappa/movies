@@ -1,5 +1,7 @@
-package com.kumar.movies;
+package com.kumar.movies.services;
 
+import com.kumar.movies.repositories.MovieRepository;
+import com.kumar.movies.models.Movie;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
